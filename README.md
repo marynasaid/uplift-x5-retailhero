@@ -33,13 +33,9 @@
 - With 117 features, the simple segment-averaging variant fell behind tuned ML models; the forest variant stayed on par.
 - Profit figures in the reports use illustrative costs (€0.08 per SMS, €6 margin per extra buyer).
 
-## How this was built
-Method design, research questions and validation choices are my own. I used an AI assistant (Claude) to help write and refactor the code and documentation.
-
 ## How to run
 ```
 pip install -r requirements.txt
 python x5_basic_features.py     # 6 features, method vs tuned learners
 python x5_rich_features.py      # 117 features, segments tree, forest, report table
 ```
-Both scripts expect the data in the folder set by `DATA` at the top of the file. Code comments are partly in Russian.
